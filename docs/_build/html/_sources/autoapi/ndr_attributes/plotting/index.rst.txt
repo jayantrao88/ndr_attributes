@@ -1,0 +1,39 @@
+:py:mod:`ndr_attributes.plotting`
+=================================
+
+.. py:module:: ndr_attributes.plotting
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   ndr_attributes.plotting.plot_words
+
+
+
+.. py:function:: plot_words(word_counts, n=10)
+
+   Plot a bar chart of word counts.
+
+   :param word_counts: Counter object of word counts.
+   :type word_counts: collections.Counter
+   :param n: Plot the top n words. By default, 10.
+   :type n: int, optional
+
+   :returns: Bar chart of word counts.
+   :rtype: matplotlib.container.BarContainer
+
+   .. rubric:: Examples
+
+   >>> from pycounts.pycounts import count_words
+   >>> from pycounts.plotting import plot_words
+   >>> counts = count_words("text.txt")
+   >>> plot_words(counts)
+
+

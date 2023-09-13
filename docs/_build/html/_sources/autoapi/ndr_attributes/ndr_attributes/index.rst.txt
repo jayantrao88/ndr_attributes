@@ -1,0 +1,54 @@
+:py:mod:`ndr_attributes.ndr_attributes`
+=======================================
+
+.. py:module:: ndr_attributes.ndr_attributes
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   ndr_attributes.ndr_attributes.load_text
+   ndr_attributes.ndr_attributes.clean_text
+   ndr_attributes.ndr_attributes.count_words
+
+
+
+.. py:function:: load_text(input_file)
+
+   Load text from a text file and return as a string.
+
+   :param input_file: Path to the file to be read.
+   :type input_file: str
+
+   :returns: Content of the file as a string.
+   :rtype: str
+
+
+.. py:function:: clean_text(text)
+
+   Lowercase and remove punctuation from a string.
+
+   :param text: Input string that needs to be cleaned.
+   :type text: str
+
+   :returns: Cleaned string with all lowercase characters and without any punctuation.
+   :rtype: str
+
+
+.. py:function:: count_words(input_file)
+
+   Count unique words in a string.
+
+   :param input_file: Path to the file whose unique words need to be counted.
+   :type input_file: str
+
+   :returns: A Counter object containing the frequency of each unique word in the input file.
+   :rtype: Counter
+
+

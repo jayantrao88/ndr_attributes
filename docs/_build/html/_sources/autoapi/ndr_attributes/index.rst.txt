@@ -1,0 +1,23 @@
+:py:mod:`ndr_attributes`
+========================
+
+.. py:module:: ndr_attributes
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   ndr_attributes/index.rst
+   plotting/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+
+   
+
