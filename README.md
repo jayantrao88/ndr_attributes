@@ -10,7 +10,20 @@ $ pip install ndr_attributes
 
 ## Usage
 
-- TODO
+[TODO]: #
+`ndr_attributes` can be used to count words in a text file and plot results
+as follows:
+
+```python
+from ndr_attributes.ndr_attributes import count_words
+from ndr_attributes.plotting import plot_words
+import matplotlib.pyplot as plt
+
+file_path = "test.txt"  # path to your file
+counts = count_words(file_path)
+fig = plot_words(counts, n=10)
+plt.show()
+```
 
 ## Contributing
 
