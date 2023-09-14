@@ -5,6 +5,7 @@ description = "Create Custom NDR Features"
 authors = ["Jayant Rao"]
 license = "None"
 readme = "README.md"
+include = ["tests/*","CHANGELOG.md"]
 
 [tool.poetry.dependencies]
 python = ">=3.9"
